@@ -1,0 +1,5 @@
+package com.Shubham.project.exception;
+
+public class ResourceNotFoundException {
+
+}

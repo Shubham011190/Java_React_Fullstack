@@ -1,0 +1,12 @@
+package com.Shubham.project.exception;
+
+public class ResourceNotFoundException extends RuntimeException{
+	
+	public static final long serialVersionUID  = 1l;
+
+	public ResourceNotFoundException(String message) {
+		super(messgae);
+		
+	}
+	
+}
