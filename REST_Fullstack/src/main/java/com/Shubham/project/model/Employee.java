@@ -31,6 +31,12 @@ public class Employee {
 		this.emailId = emailId;
 	}
 	
+	
+	public Employee() {
+		super();
+	}
+
+
 	public long getId() {
 		return id;
 	}
