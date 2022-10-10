@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import EmployeeServices from '../services/EmployeeServices'
 
 export default class ListEmployeeComponent extends Component {
@@ -6,10 +7,9 @@ export default class ListEmployeeComponent extends Component {
       super(props)
     
       this.state = {
-        employees: []
+        employees: [],
       }
     }
-
     componentDidMount(){
         EmployeeServices.getEmployees().then((res)=>{
             this.setState({employees : res.data})
@@ -19,6 +19,9 @@ export default class ListEmployeeComponent extends Component {
     return (
         <div>
             <h2 className='text-center'>Employee List</h2>
+            <div className='row'>
+                <Link to="/add-employee" className='btn btn-primary'>Add Employee</Link>
+            </div>
             <div className='row'>
                 <table className='table table-striped table-bordered'>
                     <thead>
