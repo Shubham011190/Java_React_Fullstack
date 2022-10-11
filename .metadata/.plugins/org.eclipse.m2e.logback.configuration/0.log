@@ -666,3 +666,6 @@
 2022-10-10 21:13:37,075 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-10 21:13:37,075 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-10-10 21:13:37,075 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java_React_Fullstack\REST_Fullstack\src\test\resources
+2022-10-10 22:07:26,611 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@3993af6c{STOPPING}[10.0.11,sto=0]
+2022-10-10 22:07:26,648 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@76f4999f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2022-10-10 22:07:26,684 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2d4913b3{/help,null,STOPPED}
