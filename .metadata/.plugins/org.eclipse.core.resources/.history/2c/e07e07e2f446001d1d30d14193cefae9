@@ -1,9 +1,0 @@
-package com.Shubham.project.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.Shubham.project.model.Employee;
-
-public interface EmployeeRepository extends  JpaRepository<Employee, Long> {
-	
-}
